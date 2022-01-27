@@ -11,9 +11,9 @@ function Footer() {
             <div className={styles.footer_start}>
                 <h1>We Would Love For You to Visit Soon!</h1>
             <div>
-                <SocialIcon url="https://www.facebook.com/SoulDeepLife/?hc_ref=ARQksql18gBASM8xkYt608htSsVHXoAK34ohihxtaQWDznq4eoGf1NiDN5Y8_U7ZzzE&ref=nf_target&__tn__=kC-R" style={{ height: 30, width: 30, marginRight: 5 }}/>
-                <SocialIcon url="https://www.linkedin.com/in/brenda-martinez-zen1/linkedin.com" style={{ height: 30, width: 30, marginRight: 5 }}/>
-                <SocialIcon url="https://www.instagram.com/brenda.martinez.psychic/" style={{ height: 30, width: 30, marginRight: 25}}/>
+                <SocialIcon url="https://www.facebook.com/SoulDeepLife/?hc_ref=ARQksql18gBASM8xkYt608htSsVHXoAK34ohihxtaQWDznq4eoGf1NiDN5Y8_U7ZzzE&ref=nf_target&__tn__=kC-R" style={{ height: 30, width: 30, marginRight: 5, marginTop:10 }}/>
+                <SocialIcon url="https://www.linkedin.com/in/brenda-martinez-zen1/linkedin.com" style={{ height: 30, width: 30, marginRight: 5, marginTop:10 }}/>
+                <SocialIcon url="https://www.instagram.com/brenda.martinez.psychic/" style={{ height: 30, width: 30, marginRight: 25, marginTop:10}}/>
             </div>
             </div>
             <div className={styles.footer_info}>
