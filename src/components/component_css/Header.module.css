@@ -1,9 +1,8 @@
 .header{
-    margin: 10px 0;
+    margin: -16px 0 0 16px;
     height: 3em;
     background: rgba(111, 255, 229, 0.3);
     font-family: 'Source Serif Pro', serif;
-    padding: 0rem 0rem 0rem 1rem;
 }
 
 .links h1{
