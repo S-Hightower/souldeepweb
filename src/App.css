@@ -1,4 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
+  background-image: url("/public/images/second_edit.png");
+    background-size: cover;
+    
 }
 

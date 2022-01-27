@@ -1,0 +1,29 @@
+.container{
+    max-width: auto;
+    min-height: 100vh;
+    /* margin: 1rem 0rem 0rem 0rem; */
+}
+
+.header{
+    margin: 10px 0;
+    height: 3em;
+    background: rgba(111, 255, 229, 0.3);
+    font-family: 'Source Serif Pro', serif;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.links h1{
+    color: #281f1f;
+    font-size: 2em;
+    font-style: italic;
+    display: inline-block;
+}
+
+.links p{
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 0 21px;
+    position: relative;
+    bottom: 5px;
+}

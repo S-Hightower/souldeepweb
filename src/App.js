@@ -3,29 +3,30 @@ import './App.css';
 
 import { Route, Switch } from 'react-router-dom';
 
+import Main from './views/Main';
+
 function App() {
   return (
     <div className="App">
       <Switch>
 
         <Route exact path="/">
-          test
-          //home
+          <Main />
         </Route>
 
         <Route exact path="/about">
           //about
         </Route>
 
-        <Route exact path="/reiki">
+        <Route exact path="/contact">
           //contact
         </Route>
 
-        <Route exact path="/testimonials">
+        <Route exact path="/reiki">
           //reiki
         </Route>
 
-        <Route exact path="/pastlife">
+        <Route exact path="/testimonials">
           //testimonials
         </Route>
 
