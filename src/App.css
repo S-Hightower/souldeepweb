@@ -9,3 +9,43 @@
   background-size: cover;
 }
 
+.App h1 {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.App h2,
+.App h3,
+.App h4,
+.App h5,
+.App h6,
+.App button{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.App p {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.App button {
+  font-size: 100%;
+
+}
+
+.App .button {
+  padding: 10px 30px 10px;
+  text-decoration: none;
+  color: #fff;
+  background: #016aba;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+  display: inline-block;
+}
+
+.App .button:hover {
+  opacity: 1;
+}
