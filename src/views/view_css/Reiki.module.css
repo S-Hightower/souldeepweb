@@ -11,8 +11,10 @@
     margin: 5px 100px;
 }
 
-.static_end {
-
+.static_end,
+.class,
+.session {
+    margin: 5px 100px;
 }
 
 h5{
