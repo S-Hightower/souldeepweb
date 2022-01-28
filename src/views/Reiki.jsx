@@ -5,6 +5,9 @@ import Footer from "../components/Footer";
 
 import styles from "./view_css/Reiki.module.css";
 
+import ReikiBadge from "../component_images/ReikiBadge.png";
+import WhatReiki from "../component_images/WhatReiki.png";
+
 const Reiki = (props) => {
 
     const[selection, setSelection] = useState([]);
@@ -21,13 +24,14 @@ const Reiki = (props) => {
         <Header />
         <div className={styles.container}>
 
-            <div>
+            <div className={styles.static_intro}>
+                <img src={ReikiBadge} />
                 <h1>I am a Reiki Master Teacher and Intuitive who assists you in healing yourself</h1>
             </div>
 
-            <div className={styles.selections}>
-                <button onClick={e => onClickHandler(e,1)} value={selection}>Sessions</button>
-                <button onClick={e => onClickHandler(e,2)} value={selection}>Classes</button>
+            <div className="btn-group btn-group-lg" role="group">
+                <button className="btn btn-info border border-dark" onClick={e => onClickHandler(e,1)} value={selection}>Sessions</button>
+                <button className="btn btn-info border border-dark" onClick={e => onClickHandler(e,2)} value={selection}>Classes</button>
             </div>
 
             <div className={styles.renders}>
@@ -85,12 +89,15 @@ const Reiki = (props) => {
                 </div>
                 }
             </div>
-                <h1>The Benefits of Reiki:</h1>
-                <h4>Creates deep relaxation and aids the body in releasing stress and tension, It supports the body's natural ability to heal itself, Re-establishes spiritual equilibrium and mental well being, Aids better sleep, Balances the body's energies, Can help with acute (injuries) and chronic problems (asthma, eczema, headaches, etc.) and aides the breaking of addictions, Helps relieve pain, Assists the body in cleaning itself from toxins, Reduces some of the side effects of drugs and helps the body to recover from drug therapy after surgery and chemotherapy, Supports the immune system, Helps in emotional clearing Adjusts itself according to the needs of the recipient</h4>
+            <div className={styles.static_end}>
+            <img src={WhatReiki} />
+                <h2>The Benefits of Reiki:</h2>
+                <h5>Creates deep relaxation and aids the body in releasing stress and tension, It supports the body's natural ability to heal itself, Re-establishes spiritual equilibrium and mental well being, Aids better sleep, Balances the body's energies, Can help with acute (injuries) and chronic problems (asthma, eczema, headaches, etc.) and aides the breaking of addictions, Helps relieve pain, Assists the body in cleaning itself from toxins, Reduces some of the side effects of drugs and helps the body to recover from drug therapy after surgery and chemotherapy, Supports the immune system, Helps in emotional clearing Adjusts itself according to the needs of the recipient</h5>
             <br />
-                <h3>Each individual is different, and each Reiki session is as unique as the person receiving the treatment.</h3>
-                <h3>Reiki is not intended to replace your current medical regimen. It is a complementary modality, that enhances and promotes healing. </h3>
+                <h5>Each individual is different, and each Reiki session is as unique as the person receiving the treatment.</h5>
+                <h5>Reiki is not intended to replace your current medical regimen. It is a complementary modality, that enhances and promotes healing. </h5>
                 <h2>Healing Physically, Healing Emotionally & Healing Spiritually</h2>
+            </div>
         </div>
         <Footer />
         </>
