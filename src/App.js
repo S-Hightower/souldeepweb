@@ -4,6 +4,8 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom';
 
 import Main from './views/Main';
+import About from './views/About';
+import Reiki from './views/Reiki';
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
         </Route>
 
         <Route exact path="/about">
-          //about
+          <About />
         </Route>
 
         <Route exact path="/contact">
@@ -23,7 +25,7 @@ function App() {
         </Route>
 
         <Route exact path="/reiki">
-          //reiki
+          <Reiki />
         </Route>
 
         <Route exact path="/testimonials">
