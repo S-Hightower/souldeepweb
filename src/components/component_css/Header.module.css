@@ -12,6 +12,7 @@
 }
 
 .links p{
+    color: #281f1f;
     display: flex;
     justify-content: space-evenly;
     display: inline-block;
