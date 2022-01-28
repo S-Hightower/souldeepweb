@@ -6,6 +6,12 @@ import { Route, Switch } from 'react-router-dom';
 import Main from './views/Main';
 import About from './views/About';
 import Reiki from './views/Reiki';
+import PastLife from './views/PastLife';
+import EnergyClearing from './views/EnergyClearing';
+import SoulCoaching from './views/SoulCoaching';
+import Testimonials from './views/Testimonials';
+import Contact from './views/Contact';
+import Resources from './views/Resources';
 
 function App() {
   return (
@@ -21,7 +27,7 @@ function App() {
         </Route>
 
         <Route exact path="/contact">
-          //contact
+          <Contact />
         </Route>
 
         <Route exact path="/reiki">
@@ -29,23 +35,23 @@ function App() {
         </Route>
 
         <Route exact path="/testimonials">
-          //testimonials
+          <Testimonials />
         </Route>
 
         <Route exact path="/pastlife">
-          //pastlife
+          <PastLife />
         </Route>
 
         <Route exact path="/energyclearing">
-          //energyclearing
+          <EnergyClearing />
         </Route>
 
         <Route exact path="/soulcoaching">
-          //soulcoaching
+          <SoulCoaching />
         </Route>
 
         <Route exact path="/resources">
-          //resources
+          <Resources/>
         </Route>
 
       </Switch>
