@@ -27,6 +27,7 @@ function Main() {
             </div>
         </div>
 
+
         <div className="col -4">
             <div className="card border-info mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 200, width: 625}}>
                 <div className="card-header">
@@ -87,7 +88,6 @@ function Main() {
         <div>
             <p>All Services Available via Zoom or in Person</p>
         </div>
-
         </div >
         <Footer />
         </>

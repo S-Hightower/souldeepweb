@@ -1,0 +1,5 @@
+.container {
+    max-width: auto;
+    min-height: calc(100vh - 9em);
+    margin: 1rem 0rem 0rem 0rem;
+}
