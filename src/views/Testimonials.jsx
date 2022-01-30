@@ -50,7 +50,7 @@ function Testimonials() {
                 <h4>I have known Brenda for some years now when we attended Reiki practice together. She is warm, compassionate, and intuitive and brings joy to our gatherings. Recently, she did a soul realignment assessment for me that was very informative and which helped give clarity and insight into events in my life as well as an explanation for some of these events.  I was given a clearing and I have felt relief and have come to terms with a lot of these events.  I am able to see how my interests and life path are connected to decisions made previously. Thank you Brenda for these insights</h4>
                 <h4>Love, Sri</h4>
             <br />
-                <h2>Akashic Tarot Card Reading Testimonials </h2>
+                <h2>Card Reading Testimonials </h2>
             <br />
                 <h4>Tabby Halsrud</h4>
                 <h4>Had an amazing reading with Brenda Martinez today. She's compassionate and was very tuned in to the message I needed to hear. What I received was accurate and in alignment with this point in my journey. I now have an extra level of clarity about my path. I was blown away and am grateful! Thanks Brenda! </h4>
