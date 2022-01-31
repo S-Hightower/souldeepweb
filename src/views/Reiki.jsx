@@ -25,7 +25,7 @@ const Reiki = (props) => {
         <div className={styles.container}>
 
             <div className={styles.static_intro}>
-                <img src={ReikiBadge} width="200" height="200"/>
+                <img src={ReikiBadge} width="200" height="200" alt="IARP Member badge"/>
                 <h1>I am a Reiki Master Teacher and Intuitive who assists you in healing yourself</h1>
             </div>
 
@@ -90,7 +90,7 @@ const Reiki = (props) => {
                 }
             </div>
             <div className={styles.static_end}>
-            <img src={WhatReiki} width="600" height="600" className="mb-3 mt-3"/>
+            <img src={WhatReiki} width="600" height="600" className="mb-3 mt-3" alt="original text with description of what reiki is/isn't"/>
                 <h2>The Benefits of Reiki:</h2>
                 <h5>Creates deep relaxation and aids the body in releasing stress and tension, It supports the body's natural ability to heal itself, Re-establishes spiritual equilibrium and mental well being, Aids better sleep, Balances the body's energies, Can help with acute (injuries) and chronic problems (asthma, eczema, headaches, etc.) and aides the breaking of addictions, Helps relieve pain, Assists the body in cleaning itself from toxins, Reduces some of the side effects of drugs and helps the body to recover from drug therapy after surgery and chemotherapy, Supports the immune system, Helps in emotional clearing Adjusts itself according to the needs of the recipient</h5>
             <br />
