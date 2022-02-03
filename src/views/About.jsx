@@ -38,7 +38,9 @@ function About() {
             </div>
 
             <div className={styles.photo_group2}>
-                <h4>If you choose to work with me, please know that I believe we are all responsible for what shows up in our world and will do my best to teach you to be accountable to yourself. When we work together you will find that I do my best to show you that you have more power over your world than you ever thought possible! It's my mission to help you know that you can live an empowered life!!</h4>
+                <div>
+                    <h4>If you choose to work with me, please know that I believe we are all responsible for what shows up in our world and will do my best to teach you to be accountable to yourself. When we work together you will find that I do my best to show you that you have more power over your world than you ever thought possible! It's my mission to help you know that you can live an empowered life!!</h4>
+                </div>
             <img src={couple} width="350" height="500" alt="couple dressed nicely posing" className="me-5 ms-7"/>
             <div>
                 <h4>I have been a student in the field of Law of Attraction for over twenty years - including eight years formal education. By utilizing these skills, you will receive a uniquely insightful perspective no matter which modality used to help your situation.</h4>
@@ -63,7 +65,9 @@ function About() {
                 <h4>I'm learning and growing everyday and it is my mission to help you discover your gifts as well.</h4>
             </div>
             
+            <div className="mt-3">
                 <h4>Here is a recent video interview for Awoke TV where I go over all the many services offered:<a href="https://vimeo.com/475300685/c6dc744052">Watch Here</a></h4>
+            </div>
 
         </div>
         </div>

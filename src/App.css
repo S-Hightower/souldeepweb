@@ -7,6 +7,9 @@
   text-align: center;
   background-image: url("/public/images/FirstChoice.jpg");
   background-size: cover;
+  background-position: center;
+  width: '100vw';
+  height: '100vh';
 }
 
 .App h1 {

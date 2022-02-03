@@ -1,6 +1,6 @@
 .container {
     max-width: auto;
-    min-height: calc(100vh - 9em);
+    min-height: 100%;
     margin: 1rem 0rem 0rem 0rem;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .about_body {
-    margin: 50px 100px 250px 100px;
+    margin: 50px 100px 150px 100px;
 }
 
 .about_intro,
