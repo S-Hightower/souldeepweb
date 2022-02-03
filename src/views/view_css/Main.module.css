@@ -16,7 +16,7 @@ h2{
 
 p,
 h6{
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     font-family: 'Source Serif Pro', serif;
 }
@@ -27,5 +27,15 @@ h5{
     margin-top: 5px;
     font-weight: bold;
     font-family: 'Source Sans Pro', sans-serif;
+    color: #c21e56;
 }
 
+.lastBit {
+    color: #045de9;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: larger;
+}
+
+.lastBit h3{
+    font-family: 'Source Serif Pro', sans-serif;
+}

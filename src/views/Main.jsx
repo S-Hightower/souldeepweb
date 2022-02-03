@@ -15,7 +15,7 @@ function Main() {
 {/* //row 1 */}
         <div className="row justify-content-evenly">
         <div className="col -4 offset-md-1">
-            <div className="card border-info mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 200, width: 625}}>
+            <div className="card mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 250, width: 625}}>
                 <div className="card-header">
                     <Link to={'/soulcoaching'}>
                     <h2>Soul Coaching</h2>
@@ -29,7 +29,7 @@ function Main() {
 
 
         <div className="col -4">
-            <div className="card border-info mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 200, width: 625}}>
+            <div className="card mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 250, width: 625}}>
                 <div className="card-header">
                     <Link to={'/energyclearing'}>
                     <h2>Emotional Body Release & Clearing</h2>
@@ -44,7 +44,7 @@ function Main() {
 
 {/* //row 2 */}
         <div className="col -4 offset-md-1">
-            <div className="card border-info mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 200, width: 625}}>
+            <div className="card mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 250, width: 625}}>
                 <div className="card-header">
                     <Link to={'/pastlife'}>
                     <h2>Certified Level 3 Soul Realignment - Past Life - Akashic Readings</h2>
@@ -57,7 +57,7 @@ function Main() {
         </div>
 
         <div className="col -4">
-            <div className="card border-info mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 200, width: 625}}>
+            <div className="card mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height: 250, width: 625}}>
                 <div className="card-header">
                     <Link to={'/reiki'}>
                     <h2>Certified Reiki Master Teacher & Practitioner</h2>
@@ -70,6 +70,17 @@ function Main() {
         </div>
         </div>
 
+
+        <div className="col -4 offset-md-2">
+            <div className="card mb-3 bg-info p-2 text-dark bg-opacity-10" style={{ height:250, width:1075 }}>
+                <div className="card-header">
+                    <h2>Oracle Card Readings and Intuitive Discovery</h2>
+                </div>
+            <div className="card-body">
+             <p>Brenda uses a variety of Oracle card decks, using her intuition and higher guidance to bring you the information your higher-self asks about.  She is a student of vibrational intentions and will always bring forth messages designed to enhance, uplift and empower you and the situations you may inquire about.</p> <h5>Readings are $1 a minute and can be done via Zoom, Facebook Messenger or in person (travel time is extra).</h5>
+            </div>
+            </div>
+        </div>
 {/* //row 3 */}
         <div>
             <h2>True Sidereal Astrology</h2>
@@ -77,16 +88,9 @@ function Main() {
         <div style={{ marginBottom:20, marginTop:20}}>
             <h6>Leading Edge Readings of your natal chart by two premier astrologers and mystics. Please visit <a href="http://www.fsastrology.com/">Free Spirits Astrology</a> for more information.</h6>
         </div>
-
-        <div>
-            <h2>Oracle Card Readings and Intuitive Discovery</h2>
-        </div>
-        <div style={{ marginBottom:20, marginTop:20}}>
-            <h6>Brenda uses a variety of Oracle card decks, using her intuition and higher guidance to bring you the information your higher-self asks about.  She is a student of vibrational intentions and will always bring forth messages designed to enhance, uplift and empower you and the situations you may inquire about.</h6> <h5>Readings are $1 a minute and can be done via Zoom, Facebook Messenger or in person (travel time is extra).</h5>
-        </div>
                 
-        <div>
-            <p>All Services Available via Zoom or in Person</p>
+        <div className={styles.lastBit}>
+            <h3>All Services Available via Zoom or in Person</h3>
         </div>
         </div >
         <Footer />
