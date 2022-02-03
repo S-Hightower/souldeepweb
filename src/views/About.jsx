@@ -60,12 +60,11 @@ function About() {
             <div className={styles.photo_group5}>
                 <h4>With both of these modalities under my belt, and after years of learning to trust that still inner voice, as well as the amazing pictures that reveal themselves to me I am now fully out of the closet as a Psychic. My clear knowing is and has been my strongest Clair, but coming in close second is Clairvoyance. I use these gifts throughout my practice in Reiki, Akashic Readings, Emotion Body therapy, Astrology and through my Card Readings; & in many cases it comes through just simply speaking with you. </h4>
                 <img src={outlook} width="500" height="500" alt="scenic outlook towards the ocean and horizon" className="me-5 ms-7"/>
-            <div className={styles.outro}>
                 <h4>I'm learning and growing everyday and it is my mission to help you discover your gifts as well.</h4>
-            <br />
-                <h4>Here is a recent video interview for Awoke TV where I go over all the many services offered:<a href="https://vimeo.com/475300685/c6dc744052">Watch Here</a></h4>
             </div>
-        </div>
+            
+                <h4>Here is a recent video interview for Awoke TV where I go over all the many services offered:<a href="https://vimeo.com/475300685/c6dc744052">Watch Here</a></h4>
+
         </div>
         </div>
         <Footer />
