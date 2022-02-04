@@ -29,10 +29,11 @@ const Reiki = (props) => {
                 <h1>I am a Reiki Master Teacher and Intuitive who assists you in healing yourself</h1>
             </div>
 
+                <h4>Please select if you are interested in Reiki services or classes:</h4>
             <div className={styles.clickers}>
                 <div className="btn-group btn-group-lg mb-5" role="group">
-                    <button className="btn btn-info border border-dark" onClick={e => onClickHandler(e,1)} value={selection}>Sessions</button>
-                    <button className="btn btn-info border border-dark" onClick={e => onClickHandler(e,2)} value={selection}>Classes</button>
+                    <button className="btn border border-dark" onClick={e => onClickHandler(e,1)} value={selection}>Sessions</button>
+                    <button className="btn border border-dark" onClick={e => onClickHandler(e,2)} value={selection}>Classes</button>
                 </div>
             </div>
 
@@ -96,7 +97,21 @@ const Reiki = (props) => {
             <div className="card bg-light p-2 text-dark bg-opacity-25">
                 <div className="card-body">
                     <h2>The Benefits of Reiki:</h2>
-                    <h4>Creates deep relaxation and aids the body in releasing stress and tension, It supports the body's natural ability to heal itself, Re-establishes spiritual equilibrium and mental well being, Aids better sleep, Balances the body's energies, Can help with acute (injuries) and chronic problems (asthma, eczema, headaches, etc.) and aides the breaking of addictions, Helps relieve pain, Assists the body in cleaning itself from toxins, Reduces some of the side effects of drugs and helps the body to recover from drug therapy after surgery and chemotherapy, Supports the immune system, Helps in emotional clearing Adjusts itself according to the needs of the recipient</h4>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Creates deep relaxation and aids the body in releasing stress and tension</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>It supports the body's natural ability to heal itself</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Re-establishes spiritual equilibrium and mental well being</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Aids better sleep</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Balances the body's energies</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Can help with acute (injuries) and chronic problems (asthma, eczema, headaches, etc.)</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Aides the breaking of addictions</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Helps relieve pain</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Assists the body in cleaning itself from toxins</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Reduces some of the side effects of drugs and helps the body to recover from drug therapy after surgery and chemotherapy</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Supports the immune system</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Helps in emotional clearing</h6></li>
+                        <li className="list-group-item bg-light p-2 text-dark bg-opacity-10"><h6>Adjusts itself according to the needs of the recipient</h6></li>
+                    </ul>
                 </div>
             </div>
             <br />

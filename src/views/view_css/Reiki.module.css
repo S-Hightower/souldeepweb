@@ -28,3 +28,11 @@ h5{
     display: flex;
     justify-content: center;
 }
+
+.static_end h4 {
+    font-weight: bold;
+}
+
+.clickers button{
+    background-color: #afdceb;
+}
