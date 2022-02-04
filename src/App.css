@@ -5,6 +5,8 @@
 
 .App {
   text-align: center;
+  max-width: auto;
+  min-height: 100vh;
 }
 
 .App h1 {
