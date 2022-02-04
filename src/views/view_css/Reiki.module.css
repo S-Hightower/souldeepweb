@@ -11,17 +11,24 @@
     margin: 50px 200px;
 }
 
-.static_end,
-.class,
-.session {
+.static_end{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5px 100px;
 }
 
+.class,
+.session {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 100px;
+    align-items: center;
+}
+
 h5{
     font-weight: normal;
+    color:black;
 }
 
 .clickers {
@@ -36,3 +43,8 @@ h5{
 .clickers button{
     background-color: #afdceb;
 }
+
+.session .card h1 {
+    font-weight: bold;
+}
+
