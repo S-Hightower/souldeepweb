@@ -4,7 +4,7 @@
     margin: 1rem 0rem 0rem 0rem;
 }
 
-.row {
+.resources_body .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -13,6 +13,7 @@
     align-items: flex-start;
 }
 
-h5 {
+.resources_intro h5,
+.resources_body h5 {
     color: black;
 }

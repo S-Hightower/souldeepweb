@@ -13,6 +13,7 @@ function Testimonials() {
             <div className={styles.testimonials_intro}>
                 <h1>Thank You!</h1>
             </div>
+            <div className={styles.testimonials_body}>
             <div className="row justify-content-around">
                 <div className="col-4">
                     <div className={styles.review}>
@@ -117,6 +118,7 @@ function Testimonials() {
                         <h5>Just got back from my tarot card reading with Brenda Martinez! Wow! She has such a light and welcoming spirit. My reading was amazing, she gave me some great insight on the cards pulled and the reading was spot on. She sent me on my way with love and peace with the question I had on my mind. Feeling clarity after meeting with her and look forward to the next time.</h5>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         <Footer />
