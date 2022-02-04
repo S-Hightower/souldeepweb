@@ -68,15 +68,13 @@ const Reiki = (props) => {
 
             {selection === 2 &&
                 <div className={styles.class}>
-
-                        <h1>Reiki Classes:</h1>
-
                         <div class="private-class-notice">
-                            <h4>The importance of choosing a Reiki Master Teacher: <a href="https://www.facebook.com/SoulDeepLife/videos/1095733260582033">Deep Soul Facebook Video</a></h4>
+                            <h4>The importance of choosing a Reiki Master Teacher: <a href="https://www.facebook.com/SoulDeepLife/videos/1095733260582033">Soul Deep Life Facebook Video</a></h4>
                             <h5>ASK ABOUT PRIVATE CLASSES TO FIT YOUR SCHEDULE </h5>
                         </div>
 
-                        <h5><span>Private Classes add $25</span> -  **Turn your private class in to a group class by bringing a friend to save $25</h5>
+                        <h5>Private Classes add $25</h5>
+                        <h5>✴️Turn your private class in to a group class by bringing a friend to save $25✴️</h5>
 
                     <br />
                     <div className="card text-start bg-light p-2 text-dark bg-opacity-10" style={{width: 900}}>
