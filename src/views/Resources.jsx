@@ -5,6 +5,9 @@ import Footer from "../components/Footer";
 
 import styles from "./view_css/Resources.module.css";
 
+import CrystalClarity from "../component_images/CrystalClarity.jpg";
+import MassageTherapist from "../component_images/MassageTherapist.jpg";
+
 function Resources() {
     return (
         <>
@@ -18,9 +21,12 @@ function Resources() {
                 </div>
             </div>
             <div className={styles.resources_body}>
-                <div className="row mt-3">
-                    <div className="col-sm-4">
+                <div className="row justify-content-evenly">
+                    <div className="col-4">
                         <div className="card text-dark bg-transparent">
+                            <div className="card-img-top mt-3 mb-3">
+                                <img src={CrystalClarity} />
+                            </div>
                             <div className="card-title">
                                 <h3>I would like to introduce you to Courtney DeMatteo with Crystal Clarity Life Coaching and Reiki</h3>
                             </div>
@@ -30,10 +36,13 @@ function Resources() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-4">
                         <div className="card text-dark bg-transparent">
+                        <div className="card-img-top mt-3 mb-3">
+                                <img src={MassageTherapist} />
+                            </div>
                             <div className="card-title">
-                                <h3>My next recommendation is for Sabrina Monay, Neuromuscular Massage Therapist</h3>
+                                <h3>My next recommendation is Sabrina Monay, Neuromuscular Massage Therapist</h3>
                             </div>
                             <div className="card-title">
                                 <h5>Sabrina is amazing at what she does. Her deep tissue massages are second to none and she has some of the best prices in town! She also offers, Cupping, Graston, Sports Therapy and works with Down Syndrome kids and is crafty too! Sabrina is not on Social Media, and this is giving her time to learn more and more new crafts - give her a call and let her know I sent you! <span>719-310-2966</span></h5>

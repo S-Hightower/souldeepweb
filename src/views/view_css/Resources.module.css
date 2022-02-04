@@ -4,13 +4,6 @@
     margin: 1rem 0rem 0rem 0rem;
 }
 
-.resources_body .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 .resources_intro h5,
 .resources_body h5 {
     color: black;
