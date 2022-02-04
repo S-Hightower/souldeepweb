@@ -5,20 +5,26 @@
 }
 
 .about_intro {
-    margin: 50px 100px;
+    margin: 50px 200px;
 }
 
 .about_body {
-    margin: 50px 100px 150px 100px;
+    margin: 50px 100px 50px 100px;
 }
 
 .about_intro,
 .photo_group1,
-.photo_group2,
 .photo_group3,
-.photo_group4,
-.photo_group5 {
+.photo_group4 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }

@@ -27,7 +27,7 @@ function About() {
                 <br />
             I believe in putting love into all that I do.
                 <br />
-            Happy - Healthy- Whole - ​This is my desire for you</h2>
+            Happy - Healthy- Whole - ​This is my desire for you.</h2>
         </div>
 
         <div className={styles.about_body}>
@@ -37,11 +37,11 @@ function About() {
             <br />
             </div>
 
-            <div className={styles.photo_group2}>
+            <div className={styles.wrapper}>
                 <div>
                     <h4>If you choose to work with me, please know that I believe we are all responsible for what shows up in our world and will do my best to teach you to be accountable to yourself. When we work together you will find that I do my best to show you that you have more power over your world than you ever thought possible! It's my mission to help you know that you can live an empowered life!!</h4>
                 </div>
-            <img src={couple} width="350" height="500" alt="couple dressed nicely posing" className="me-5 ms-7"/>
+            <img src={couple} width="350" height="500" alt="couple dressed nicely posing" className="me-5 ms-5"/>
             <div>
                 <h4>I have been a student in the field of Law of Attraction for over twenty years - including eight years formal education. By utilizing these skills, you will receive a uniquely insightful perspective no matter which modality used to help your situation.</h4>
             </div>
@@ -59,14 +59,14 @@ function About() {
             <br />
             </div>
 
-            <div className={styles.photo_group5}>
+            <div className={styles.wrapper}>
                 <h4>With both of these modalities under my belt, and after years of learning to trust that still inner voice, as well as the amazing pictures that reveal themselves to me I am now fully out of the closet as a Psychic. My clear knowing is and has been my strongest Clair, but coming in close second is Clairvoyance. I use these gifts throughout my practice in Reiki, Akashic Readings, Emotion Body therapy, Astrology and through my Card Readings; & in many cases it comes through just simply speaking with you. </h4>
-                <img src={outlook} width="500" height="500" alt="scenic outlook towards the ocean and horizon" className="me-5 ms-7"/>
+                <img src={outlook} width="500" height="500" alt="scenic outlook towards the ocean and horizon" className="me-5 ms-5"/>
                 <h4>I'm learning and growing everyday and it is my mission to help you discover your gifts as well.</h4>
             </div>
             
-            <div className="mt-3">
-                <h4>Here is a recent video interview for Awoke TV where I go over all the many services offered:<a href="https://vimeo.com/475300685/c6dc744052">Watch Here</a></h4>
+            <div className="card bg-light p-2 text-dark bg-opacity-25 mt-5">
+                <h4>Here is a recent video interview for Awoke TV where I go over all the many services offered:  <a href="https://vimeo.com/475300685/c6dc744052">Watch Here</a></h4>
             </div>
 
         </div>
