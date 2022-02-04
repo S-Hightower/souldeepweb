@@ -1,5 +1,27 @@
 .container {
     max-width: auto;
     min-height: calc(100vh - 9em);
-    margin: 1rem 0rem 0rem 0rem;
+    margin: 1rem 0rem 4rem 0rem;
+}
+
+.review {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    color: #001871;
+}
+
+h3,
+h4 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    color: #030170;
+}
+
+hr {
+    color: #1338be;
 }
