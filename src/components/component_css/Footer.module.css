@@ -1,11 +1,11 @@
 .footer{
-    height: 4.5em;
+    height: 5.5em;
     background: rgba(0, 225, 255, 0.5);
     font-family: 'Source Serif Pro', serif;
     min-width: 100vw;
+    padding: 10px 10px 0px 10px;
     position: relative;
     bottom: 0px;
-    padding: 10px 10px;
 }
 
 .footer_start{
