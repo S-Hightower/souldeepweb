@@ -3,3 +3,16 @@
     min-height: calc(100vh - 9em);
     margin: 1rem 0rem 0rem 0rem;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h5 {
+    color: black;
+}
