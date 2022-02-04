@@ -9,8 +9,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    align-items: flex-start;
     justify-content: center;
+    align-items: flex-start;
 }
 
 h5 {
