@@ -65,7 +65,7 @@ function Main() {
 
 
         <div className="col -4 offset-md-2">
-            <div className="card mb-3 bg-light p-2 text-dark bg-opacity-10" style={{ height:250, width:1075 }}>
+            <div className="card mb-3 bg-light p-2 text-dark bg-opacity-25" style={{ height:250, width:1075 }}>
             <div className="card-body">
                 <h2>Oracle Card Readings and Intuitive Discovery</h2>
                 <p>Brenda uses a variety of Oracle card decks, using her intuition and higher guidance to bring you the information your higher-self asks about.  She is a student of vibrational intentions and will always bring forth messages designed to enhance, uplift and empower you and the situations you may inquire about.</p> <h5>Readings are $1 a minute and can be done via Zoom, Facebook Messenger or in person (travel time is extra).</h5>
@@ -74,7 +74,7 @@ function Main() {
         </div>
 {/* //row 3 */}
         <div className="col -4 offset-md-2">
-            <div className="card mb-3 bg-light p-2 text-dark bg-opacity-10" style={{ height:150, width:1075 }}>
+            <div className="card mb-3 bg-light p-2 text-dark bg-opacity-25" style={{ height:150, width:1075 }}>
                 <div className="card-body">
                     <h2>True Sidereal Astrology</h2>
                     <h6>Leading Edge Readings of your natal chart by two premier astrologers and mystics. Please visit <a href="http://www.fsastrology.com/">Free Spirits Astrology</a> for more information.</h6>
