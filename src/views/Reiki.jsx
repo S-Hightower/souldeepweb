@@ -25,7 +25,7 @@ const Reiki = (props) => {
         <div className={styles.container}>
 
             <div className={styles.static_intro}>
-                <img src={ReikiBadge} width="200" height="200" alt="IARP Member badge"/>
+                <img src={ReikiBadge} width="200" height="200" alt="IARP Member badge" className="me-3"/>
                 <h1>I am a Reiki Master Teacher and Intuitive who assists you in healing yourself</h1>
             </div>
 
@@ -82,25 +82,42 @@ const Reiki = (props) => {
                     <div className="card text-start bg-light p-2 text-dark bg-opacity-10" style={{width: 900}}>
                         <h1>Reiki I Class</h1>
                         <h5>📍 includes your first attunement and Reiki 1 manual📍</h5>
-                        <h5>included in the manual is a history of Reiki, a meditation to meet your Reiki guide, information on your Chakras, Reiki etiquette, instructions on how to have a Reiki practice, and much more. The classes are small and very hands-on, meaning you will receive personalized instruction on the basics of doing a full Reiki session, so as to be comfortable to do sessions on your own. You will be working directly with myself and/or other participants in the class. Upon completion of the class you will receive your First Degree Reiki Certification. Also included with this class, as well as Reiki 2, Reiki 3a, and Master Teacher classes, is an ongoing opportunity to come back at any time to join a scheduled class to refresh, or gain additional knowledge for your own practice. The only prerequisite is that you have taken that degree/class prior to coming back, and that there is room for you in the class. </h5>
+                        <h5 className="text-start">Included in the manual:</h5>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">a history of Reiki</li>
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">a meditation to meet your Reiki guide</li>
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">information on your Chakras</li>
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">Reiki etiquette</li>
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">instructions on how to have a Reiki practice</li>
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">and much more!</li>
+                        </ul>
+                        <h5>
+                            The classes are small and very hands-on, meaning you will receive personalized instruction on the basics of doing a full Reiki session, so as to be comfortable to do sessions on your own. You will be working directly with myself and/or other participants in the class. Upon completion of the class you will receive your First Degree Reiki Certification. Also included with this class, as well as Reiki 2, Reiki 3A, and Master Teacher classes, is an ongoing opportunity to come back at any time to join a scheduled class to refresh, or gain additional knowledge for your own practice. The only prerequisite is that you have taken that degree/class prior to coming back, and that there is room for you in the class. </h5>
                     </div>
                     <br />
                     <div className="card text-start bg-light p-2 text-dark bg-opacity-10" style={{width: 900}}>
                         <h1>Reiki II Class</h1>
                         <h5>📍includes your second attunement to include 3 Reiki symbols and the Reiki 2 manual📍</h5>
-                        <h5>including the use of the three Reiki symbols to include distant Reiki, instructions on how the symbols work, and much more. The class is hands on, meaning you will receive personalized instruction from myself, working with myself directly and/or other participants in the class.  We will learn how to use the symbols by practicing using them. We will also go over the heightened intuition Reiki 2 can bring, and more... Upon completion of the class you will receive your Second Degree Reiki Certification.</h5>
+                        <h5 className="text-start">Included in the manual:</h5>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">the use of the three Reiki symbols to include distant Reiki</li>
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">instructions on how the symbols work</li>
+                            <li className="list-group-item bg-light p-2 text-dark bg-opacity-10">and much more!</li>
+                        </ul>
+                        <h5>The class is hands on, meaning you will receive personalized instruction from myself, working with myself directly and/or other participants in the class. We will learn how to use the symbols by practicing using them. We will also go over the heightened intuition Reiki 2 can bring, and more. Upon completion of the class you will receive your Second Degree Reiki Certification.</h5>
                     </div>
                     <br />
                     <div className="card text-start bg-light p-2 text-dark bg-opacity-10" style={{width: 900}}>
                         <h1>Reiki Expert Class</h1>
                         <h5>This is an advanced class, and is the prerequisite to your Master Teachers Certification. In this class you will be attuned to the the Master symbol without the ability to pass attunements.  It is for those who know they want to take their practice to another level, and is a good step to decide if you want to go on to teach Reiki. In this class you will receive your Expert level manual, and will receive hands on training. </h5>
                         <h5>Upon completion of the class you will receive the Expert Level Certification.</h5>
-                        <h4>(to be eligible to take the Master Teacher course, you must complete 100 hours of Reiki practice)</h4>
+                        <h5>(to be eligible to take the Master Teacher course, you must complete 100 hours of Reiki practice)</h5>
                     </div>
                     <br />
                     <div className="card text-start bg-light p-2 text-dark bg-opacity-10" style={{width: 900}}>
                         <h1>Reiki Master Teacher Class including one time help with your first class</h1>
-                        <h5>This class will give you the tools to become a competent White Light Reiki Master Teacher. The requirements for this course are the study, certification and completion of Reiki 1, 2, & 3a, along with a documented 100 hours of reiki practitioner practice. This class will give you all of the tools needed to pass attunements as well as all of the written material needed to create your own manuals and certificates, and of course me to help with your very first class. </h5>
+                        <h5>📍includes one time help with your first class📍</h5>
+                        <h5>This class will give you the tools to become a competent White Light Reiki Master Teacher. The requirements for this course are the study, certification and completion of Reiki 1, 2, & 3A, along with a documented 100 hours of reiki practitioner practice. This class will give you all of the tools needed to pass attunements as well as all of the written material needed to create your own manuals and certificates, and of course me to help with your very first class. </h5>
                     </div>
                 </div>
                 }
