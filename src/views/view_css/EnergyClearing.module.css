@@ -3,3 +3,20 @@
     min-height: calc(100vh - 9em);
     margin: 1rem 0rem 0rem 0rem;
 }
+
+.energy_body {
+    margin: 50px 100px 250px 100px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h1,
+h4 {
+    color: #000000;
+}
+
+hr {
+    color: #5D3FD3;
+}
