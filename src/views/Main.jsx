@@ -12,6 +12,7 @@ function Main() {
         <>
         <Header />
         <div className={styles.container}>
+
 {/* //row 1 */}
         <div className="row justify-content-evenly">
         <div className="col -4 offset-md-1">
@@ -92,7 +93,7 @@ function Main() {
         <div className={styles.lastBit}>
             <h3>All Services Available via Zoom or in Person</h3>
         </div>
-        </div >
+        </div>
         <Footer />
         </>
     )
