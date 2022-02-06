@@ -11,3 +11,8 @@
     font-family: 'Source Serif Pro', serif;
     margin: 17rem 5rem;
 }
+
+.banner h1{
+    line-height: 3.5rem;
+    font-size: 3.5rem;
+}

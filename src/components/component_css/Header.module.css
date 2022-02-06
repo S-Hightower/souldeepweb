@@ -1,5 +1,5 @@
 .header{
-    height: 3em;
+    height: 3rem;
     background: rgba(111, 255, 229, 0.5);
     font-family: 'Source Serif Pro', serif;
     min-width: 100vw;
@@ -7,7 +7,7 @@
 
 .links h1{
     color: #281f1f;
-    font-size: 2em;
+    font-size: 2rem;
     font-style: italic;
     display: inline-block;
 }
@@ -20,7 +20,7 @@
     padding: 0 21px;
     position: relative;
     bottom: 5px;
-    font-size: 18px;
+    font-size: 1.15rem;
 }
 
 .links p:hover {
