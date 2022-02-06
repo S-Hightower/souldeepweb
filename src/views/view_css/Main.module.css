@@ -1,5 +1,5 @@
 .container {
-    max-width: auto;
+    max-width: 100vw;
     min-height: calc(100vh - 8.5em);
     margin: 1.5rem 0rem 1rem 0rem;
     display: flex;
@@ -7,44 +7,7 @@
     align-items: center;
 }
 
-h2{
-    font-weight: bold;
-    font-style: italic;
-    font-size: 30px;
-    text-decoration: none;
-    color: #281f1f;
-    text-align: center;
+.banner {
     font-family: 'Source Serif Pro', serif;
-}
-
-p,
-h6{
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Source Serif Pro', serif;
-}
-
-.bottom_section h5{
-    font-size: 18px;
-    text-align: center;
-    margin-top: 5px;
-    font-weight: bold;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #c21e56;
-}
-
-.lastBit {
-    color: #045de9;
-    text-shadow: 2px 2px 8px #000000;
-    font-size: larger;
-    font-weight: bold;
-}
-
-.lastBit h3{
-    font-family: 'Source Serif Pro', sans-serif;
-}
-
-.bottom_section {
-    display: flex;
-    flex-direction: column;
+    margin: 17rem 5rem;
 }
