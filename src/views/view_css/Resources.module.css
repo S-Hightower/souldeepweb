@@ -8,3 +8,14 @@
 .resources_body h5 {
     color: black;
 }
+
+.resources_body a {
+    text-decoration: none;
+    color: #00008b;
+}
+
+.resources_body a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 20%;
+    text-decoration-color: #C59CD9;
+}

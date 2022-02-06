@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 import styles from "./view_css/PastLife.module.css";
 
-function PastLife() {
+const PastLife = () => {
+
+    // const [isActive, setIsActive] = useState(false);
+
+    // const AccordionData = [
+    //     {
+    //     title:"Main Past Life Reading & Clearing",
+    //     content: "​Who you are at soul level is brought to light, your true energy body is discovered, as well as what your soul strengths are.  From there the blocks and restrictions from your past which are affecting your present are uncovered.  Once your blocks and restrictions are revealed, through the stories of your past, you are able to understand the circumstances behind the choices you've made. It's those choices that  have created the blocks and restrictions, then and now. From there we are able to clear the blocks and restrictions helping you move forward into the life you were meant to live."},
+
+    //     {title:"Akashic Clearing of Properties",
+    //     content: "Our properties can carry unwanted negative energy of all forms; many of which have been there long before any of us came along. This reading identifies what negative energies are present. The energies are then cleared at the Akashic level. This reading is great for those that have done the Main reading, because we are energetically drawn to places that are like us.  Many times your home will no longer resonate with you once the main reading and clearing is done. It is also great for properties that are not selling and no one seems to know why, as well as for homes that are newly purchased where you want a clean slate moving in. (A recommended add-on to the Main Reading)"}
+    // ];
+
+    // const { title, content } = AccordionData;
+
+
+
+
+
+
+
     return (
         <>
         <Header />
@@ -14,6 +34,9 @@ function PastLife() {
                 <h1>Akashic Readings and Clearings</h1>
                 <h1>(Past & Present Life)</h1>
             </div>
+
+
+
             <div class="pastlife-body">
                 <h1>Main Past Life Reading & Clearing</h1>
                 <h4>​Who you are at soul level is brought to light, your true energy body is discovered, as well as what your soul strengths are.  From there the blocks and restrictions from your past which are affecting your present are uncovered.  Once your blocks and restrictions are revealed, through the stories of your past, you are able to understand the circumstances behind the choices you've made. It's those choices that  have created the blocks and restrictions, then and now. From there we are able to clear the blocks and restrictions helping you move forward into the life you were meant to live.</h4>

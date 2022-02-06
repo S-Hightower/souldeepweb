@@ -17,7 +17,7 @@ function Resources() {
                 <div className="mt-3">
                     <h2>There is no such thing as competition in an abundant Universe.</h2>
                     <h5 className="mt-3">I've  come across some amazing practitioners who you may need or want to check out. Below are some of my favorites!</h5>
-                    <h5> If you don't see something your are looking for, contact me, I likely have someone I can refer you too! </h5>
+                    <h5 className="mb-5"> If you don't see something your are looking for, contact me, I likely have someone I can refer you too! </h5>
                 </div>
             </div>
             <div className={styles.resources_body}>
@@ -32,7 +32,9 @@ function Resources() {
                             </div>
                             <div className="card-body">
                                 <h5>Courtney is a Life Alignment coach who can help you personally, professionally and everything in between.  Courtney is a huge part of me building a successful business, and through her coaching I am a better person all the way around.  Her Reiki sessions are amazing and if you'd rather not travel up north to see me, she's a great choice on the south end of Colorado Springs.</h5>
-                                <h5>Check out Courtney on her website: <a href="​https://crystalclaritylifecoaching.com/">Crystal Clarity Life Coaching</a></h5>
+                                <h5>Check out Courtney on her website: 
+                                    <br />
+                                    <a href="​https://crystalclaritylifecoaching.com/">Crystal Clarity Life Coaching</a></h5>
                             </div>
                         </div>
                     </div>

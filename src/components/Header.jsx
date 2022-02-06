@@ -23,15 +23,15 @@ function Header() {
             <Link to={'/energyclearing'}>
                 <p>Energetic Emotion Body Clearing</p>
             </Link>
-            {/* <Link to={'/soulcoaching'}>
+            <Link to={'/soulcoaching'}>
                 <p>Soul Coaching</p>
-            </Link> */}
+            </Link>
             <Link to={'/testimonials'}>
                 <p>Testimonials</p>
             </Link>
-            {/* <Link to={'/contact'}>
+            <Link to={'/contact'}>
                 <p>Contact</p>
-            </Link> */}
+            </Link>
             <Link to={'/resources'}>
                 <p>Resources</p>
             </Link>
