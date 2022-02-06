@@ -1,15 +1,26 @@
-.container {
+.about_container {
     max-width: auto;
     min-height: calc(100vh - 9em);
     margin: 1rem 0rem 0rem 0rem;
 }
 
+.about_container a {
+    text-decoration: none;
+    color: #00008b;
+}
+
+.about_container a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 20%;
+    text-decoration-color: #C59CD9;
+}
+
 .about_intro {
-    margin: 50px 200px;
+    margin: 4rem 9rem;
 }
 
 .about_body {
-    margin: 50px 100px 50px 100px;
+    margin: 4rem 5rem;
 }
 
 .about_intro,

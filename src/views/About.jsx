@@ -16,7 +16,7 @@ function About() {
     return(
         <>
         <Header />
-        <div className={styles.container}>
+        <div className={styles.about_container}>
         <div className={styles.about_intro}>
             <img src={BrendaProfile} width="350" height="425" alt="owner profile" className="me-5"/>
             <h2>​I believe I will be forever learning and growing.
@@ -65,7 +65,7 @@ function About() {
                 <h4>I'm learning and growing everyday and it is my mission to help you discover your gifts as well.</h4>
             </div>
             
-            <div className="card bg-light p-2 text-dark bg-opacity-25 mt-5">
+            <div className="card bg-light p-2 text-dark bg-opacity-25 mt-5" >
                 <h4>Here is a recent video interview for Awoke TV where I go over all the many services offered:  <a href="https://vimeo.com/475300685/c6dc744052">Watch Here</a></h4>
             </div>
 
