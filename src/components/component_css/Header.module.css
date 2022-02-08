@@ -6,14 +6,14 @@
 }
 
 .links h1{
-    color: #281f1f;
+    color: #222222;
     font-size: 2rem;
     font-style: italic;
     display: inline-block;
 }
 
 .links p{
-    color: #281f1f;
+    color: #222222;
     display: flex;
     justify-content: space-evenly;
     display: inline-block;
