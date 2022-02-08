@@ -12,9 +12,26 @@ function Main() {
         <>
         <Header />
         <div className={styles.container}>
-            <div className={styles.banner}>
-                <h1>I'm learning and growing everyday and it is my mission to help you discover your gifts as well</h1>
-            </div>
+            <h1 className={styles.span_h1}>
+                <span>I'm </span>
+                <span>learning </span>
+                <span>and </span>
+                <span>growing </span>
+                <span>everyday </span>
+                <span>and </span>
+                <span>it </span>
+                <span>is </span>
+                <span>my </span>
+                <span>mission </span>
+                <span>to </span>
+                <span>help </span>
+                <span>you </span>
+                <span>discover </span>
+                <span>your </span>
+                <span>gifts </span>
+                <span>as </span>
+                <span>well.</span>
+            </h1>
         </div>
         <Footer />
         </>
