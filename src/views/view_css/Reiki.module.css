@@ -49,3 +49,11 @@ h5{
     font-weight: bold;
 }
 
+.bottom_text h2{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+
+.bottom_text hr {
+    border: 2px solid rgba(0, 225, 255, 1);
+}

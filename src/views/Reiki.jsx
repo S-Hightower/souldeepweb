@@ -143,11 +143,15 @@ const Reiki = (props) => {
                 </div>
             </div>
             <br />
-            <div className="card bg-light p-2 text-dark bg-opacity-25 mb-5">
-                <div className="card-body">
-                    <h4>Each individual is different, and each Reiki session is as unique as the person receiving the treatment.</h4>
-                    <h4>Reiki is not intended to replace your current medical regimen. It is a complementary modality, that enhances and promotes healing. </h4>
-                    <h2>Healing Physically, Healing Emotionally & Healing Spiritually</h2>
+            <div className={styles.bottom_text}>
+                <div className="card bg-light p-2 text-dark bg-opacity-25 mb-5">
+                    <div className="card-body">
+                        <h4>Each individual is different, and each Reiki session is as unique as the person receiving the treatment.</h4>
+                        <h4>Reiki is not intended to replace your current medical regimen.</h4>
+                        <h4>It is a complementary modality, that enhances and promotes healing. </h4>
+                        <hr />
+                        <h2>Healing Physically, Healing Emotionally & Healing Spiritually</h2>
+                    </div>
                 </div>
             </div>
             </div>
