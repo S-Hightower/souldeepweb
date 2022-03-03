@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 
 import styles from './component_css/Header.module.css';
 
+import { faWater } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Header() {
 
     return(
@@ -35,6 +38,7 @@ function Header() {
             <Link to={'/resources'}>
                 <p>Resources</p>
             </Link>
+            <button><FontAwesomeIcon icon={faWater} /></button>
         </div>
         </div>
     );
