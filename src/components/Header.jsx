@@ -4,10 +4,34 @@ import { Link } from "react-router-dom";
 import styles from './component_css/Header.module.css';
 import { CSSTransition } from "react-transition-group"
 
-import { faWater } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ReactComponent as WaveIcon } from './component_css/icons/wave.svg';
 
 function Header() {
+
+    return(
+        <Navbar>
+            <NavItem icon={< WaveIcon />}>
+                <DropdownMenu></DropdownMenu>
+            </NavItem>
+        </Navbar>
+    );
+}
+
+function Navbar(props) {
+    return (
+        <nav className="navbar">
+            <ul className="navbar-nav">{props.children}</ul>
+        </nav>
+    );
+}
+
+function NavItem(props) {
+    const [ open, setOpen ] = useState(false);
+
+    return (
+
+    );
+}
 
     return(
         <div className={styles.header}>
@@ -39,7 +63,6 @@ function Header() {
             <Link to={'/soulcoaching'}>
                 <p>Soul Coaching</p>
             </Link>
-            <button><FontAwesomeIcon icon={faWater} /></button>
         </div>
         </div>
     );
