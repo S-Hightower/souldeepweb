@@ -10,17 +10,37 @@ function Header() {
 
     return (
         <Navbar>
-            <NavItem icon={< WaveIcon />}>
-                <DropdownMenu></DropdownMenu>
-            </NavItem>
+            <div className={styles.links}>
+                <Link to={'/'}>
+                    <h1>Soul Deep Life</h1>
+                </Link>
+                <Link to={'/about'}>
+                    <p>About</p>
+                </Link>
+                <Link to={'/testimonials'}>
+                    <p>Testimonials</p>
+                </Link>
+                <Link to={'/contact'}>
+                    <p>Contact</p>
+                </Link>
+                <Link to={'/resources'}>
+                    <p>Resources</p>
+                </Link>
+                <div className={styles.override}>
+                    <p>Services</p>
+                </div>
+            </div>
+                <NavItem icon={< WaveIcon />}>
+                    <DropdownMenu></DropdownMenu>
+                </NavItem>
         </Navbar>
     );
 }
 
 function Navbar(props) {
     return (
-        <nav className="navbar">
-            <ul className="navbar-nav">{props.children}</ul>
+        <nav className={styles.navbar}>
+            <ul className={styles.navbar_nav}>{props.children}</ul>
         </nav>
     );
 }
@@ -29,8 +49,8 @@ function NavItem(props) {
     const [open, setOpen] = useState(false);
 
     return (
-        <li className="nav-item">
-            <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
+        <li className={styles.nav_item}>
+            <a href="#" className={styles.icon_button} onClick={() => setOpen(!open)}>
                 {props.icon}
             </a>
 
@@ -55,73 +75,30 @@ function DropdownMenu() {
 
     function DropdownItem(props) {
         return (
-            <a href="#" className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
-                <span className="icon-button">{props.leftIcon}</span>
+            <a href="#" className={styles.menu_item} onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
                 {props.children}
-                <span className="icon-right">{props.rightIcon}</span>
             </a>
         );
     }
 
 
     return (
-        <div className="dropdown" style={{ height: menuHeight }} ref={dropdownRef}>
+        <div className={styles.dropdown} style={{ height: menuHeight }} ref={dropdownRef}>
 
             <CSSTransition
                 in={activeMenu === 'main'}
                 timeout={500}
-                classNames="menu-primary"
+                classNames={styles.menu_primary}
                 unmountOnExit
                 onEnter={calcHeight}>
-                <div className="menu">
-                    <DropdownItem>My Profile</DropdownItem>
-                    <DropdownItem
-                        leftIcon={<CogIcon />}
-                        rightIcon={<ChevronIcon />}
-                        goToMenu="settings">
-                        Settings
-                    </DropdownItem>
-                    <DropdownItem
-                        leftIcon="🦧"
-                        rightIcon={<ChevronIcon />}
-                        goToMenu="animals">
-                        Animals
-                    </DropdownItem>
+                <div className={styles.menu}>
+                    <DropdownItem><Link to={'/reiki'}><p>Reiki</p></Link></DropdownItem>
 
-                </div>
-            </CSSTransition>
+                    <DropdownItem><Link to={'/pastlife'}><p>Past Life Readings & Clearings</p></Link></DropdownItem>
 
-            <CSSTransition
-                in={activeMenu === 'settings'}
-                timeout={500}
-                classNames="menu-secondary"
-                unmountOnExit
-                onEnter={calcHeight}>
-                <div className="menu">
-                    <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-                        <h2>My Tutorial</h2>
-                    </DropdownItem>
-                    <DropdownItem leftIcon={<BoltIcon />}>HTML</DropdownItem>
-                    <DropdownItem leftIcon={<BoltIcon />}>CSS</DropdownItem>
-                    <DropdownItem leftIcon={<BoltIcon />}>JavaScript</DropdownItem>
-                    <DropdownItem leftIcon={<BoltIcon />}>Awesome!</DropdownItem>
-                </div>
-            </CSSTransition>
+                    <DropdownItem><Link to={'/energyclearing'}><p>Energetic Emotion Body Clearing</p></Link></DropdownItem>
 
-            <CSSTransition
-                in={activeMenu === 'animals'}
-                timeout={500}
-                classNames="menu-secondary"
-                unmountOnExit
-                onEnter={calcHeight}>
-                <div className="menu">
-                    <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-                        <h2>Animals</h2>
-                    </DropdownItem>
-                    <DropdownItem leftIcon="🦘">Kangaroo</DropdownItem>
-                    <DropdownItem leftIcon="🐸">Frog</DropdownItem>
-                    <DropdownItem leftIcon="🦋">Horse?</DropdownItem>
-                    <DropdownItem leftIcon="🦔">Hedgehog</DropdownItem>
+                    <DropdownItem><Link to={'/soulcoaching'}><p>Soul Coaching</p></Link></DropdownItem>
                 </div>
             </CSSTransition>
         </div>
