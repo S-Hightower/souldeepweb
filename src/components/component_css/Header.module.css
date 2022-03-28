@@ -10,9 +10,9 @@
     display: flex;
     justify-content: space-evenly;
     display: inline-block;
-    padding: 0 21px;
+    padding: 0 1rem;
     position: relative;
-    bottom: 5px;
+    bottom: .2rem;
     font-size: 1.15rem;
 }
 
@@ -65,8 +65,9 @@ display: flex;
 /* Icon Button */
 .icon_button {
 background-color: rgba(111, 255, 229, 0.5);
-padding: 5px;
-margin: 2px;
+padding: .5rem;
+margin: .2rem;
+margin-left: -1rem;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -87,8 +88,8 @@ border-radius: 50%;
 
 .dropdown {
 position: absolute;
-top: 58px;
-width: 300px;
+top: 3.5rem;
+width: 17rem;
 transform: translateX(-45%);
 background-color: rgba(111, 255, 229, 0.3);
 border: 1px solid rgba(111, 255, 229, 0.3);
@@ -103,7 +104,7 @@ width: 100%;
 }
 
 .menu_item {
-height: 30px;
+height: 1.5rem;
 display: flex;
 align-items: center;
 border-radius: 8px;
