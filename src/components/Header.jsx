@@ -18,6 +18,15 @@ function Header() {
             <Link to={'/about'}>
                 <p>About</p>
             </Link>
+            <Link to={'/testimonials'}>
+                <p>Testimonials</p>
+            </Link>
+            <Link to={'/contact'}>
+                <p>Contact</p>
+            </Link>
+            <Link to={'/resources'}>
+                <p>Resources</p>
+            </Link>
             <Link to={'/reiki'}>
                 <p>Reiki</p>
             </Link>
@@ -29,15 +38,6 @@ function Header() {
             </Link>
             <Link to={'/soulcoaching'}>
                 <p>Soul Coaching</p>
-            </Link>
-            <Link to={'/testimonials'}>
-                <p>Testimonials</p>
-            </Link>
-            <Link to={'/contact'}>
-                <p>Contact</p>
-            </Link>
-            <Link to={'/resources'}>
-                <p>Resources</p>
             </Link>
             <button><FontAwesomeIcon icon={faWater} /></button>
         </div>
