@@ -64,7 +64,7 @@ display: flex;
 
 /* Icon Button */
 .icon_button {
-background-color: rgba(111, 255, 229, 0.5);
+background-color: rgba(111, 255, 229, 0.1);
 padding: .5rem;
 margin: .2rem;
 margin-left: -1rem;
