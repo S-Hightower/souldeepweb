@@ -1,7 +1,6 @@
 .container {
     max-width: auto;
     min-height: calc(100vh - 9em);
-    margin: 1rem 0rem 4rem 0rem;
 }
 
 .review {
@@ -13,6 +12,7 @@
 
 .testimonials_intro h1 {
     color: #001871;
+    margin-top: 6.25rem;
 }
 
 .testimonials_body h3,
