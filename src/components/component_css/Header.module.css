@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'Vimala New', monospace;
+    src: url(fonts/vimalanew.otf) format('opentype');
+}
+
 .links h1{
+    font-family: 'Vimala New', monospace;
     color: #222222;
     font-size: 2rem;
     font-style: italic;
+    font-weight: 700;
     display: inline-block;
 }
 

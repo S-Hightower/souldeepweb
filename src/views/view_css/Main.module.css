@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Vimala New', monospace;
+    src: url(fonts/vimalanew.otf) format('opentype');
+}
+
 .container {
     max-width: 100vw;
     min-height: calc(100vh - 8.5em);
@@ -8,7 +13,7 @@
 }
 
 .span_h1 {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Vimala New', monospace;
     text-align: center;
     line-height: 3.5rem;
     font-size: 3.5rem;
