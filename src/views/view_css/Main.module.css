@@ -1,12 +1,11 @@
 @font-face {
     font-family: 'Vimala New', monospace;
-    src: url(fonts/vimalanew.otf) format('opentype');
+    src: url(fonts/VimalaNew.otf) format('opentype');
 }
 
 .container {
     max-width: 100vw;
     min-height: calc(100vh - 8.5em);
-    margin: 1.5rem 0rem 1rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,12 +13,14 @@
 
 .span_h1 {
     font-family: 'Vimala New', monospace;
+    font-weight: bold;
+    font-style: italic;
     text-align: center;
     line-height: 3.5rem;
     font-size: 3.5rem;
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-    margin: 8rem 5rem;
+    margin: 6.25rem 5rem;
     color: #333333;
 }
 

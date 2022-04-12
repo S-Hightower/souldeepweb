@@ -1,5 +1,26 @@
+@font-face {
+    font-family: 'Vimala New', monospace;
+    src: url(fonts/VimalaNew.otf) format('opentype');
+}
+
 .container {
-    max-width: auto;
-    min-height: calc(100vh - 9em);
-    margin: 1rem 0rem 0rem 0rem;
+    max-width: 100vw;
+    min-height: calc(100vh - 8.5em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.soulcoaching_body {
+    margin: 6.25rem 5rem;
+}
+
+.soulcoaching_body h2 {
+    font-family: 'Vimala New', monospace;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333333;
 }

@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import styles from './component_css/Header.module.css';
 import { CSSTransition } from "react-transition-group"
 
-import { ReactComponent as WaveIcon } from './component_css/icons/wave.svg';
-
 function Header() {
 
     return (
@@ -26,11 +24,8 @@ function Header() {
                 <Link to={'/resources'}>
                     <p>Resources</p>
                 </Link>
-                <div className={styles.override}>
-                    <p>Services</p>
-                </div>
             </div>
-                <NavItem icon={< WaveIcon />}>
+                <NavItem>
                     <DropdownMenu></DropdownMenu>
                 </NavItem>
         </Navbar>
@@ -50,9 +45,9 @@ function NavItem(props) {
 
     return (
         <li className={styles.nav_item}>
-            <a href="#" className={styles.icon_button} onClick={() => setOpen(!open)}>
-                {props.icon}
-            </a>
+            <button href="#" className={styles.icon_button} onClick={() => setOpen(!open)}>
+                <p className={styles.icon_p}>Services</p>
+            </button>
 
             {open && props.children}
         </li>
@@ -92,13 +87,13 @@ function DropdownMenu() {
                 unmountOnExit
                 onEnter={calcHeight}>
                 <div className={styles.menu}>
-                    <DropdownItem><Link to={'/reiki'}><p>Reiki</p></Link></DropdownItem>
+                    <DropdownItem><Link to={'/reiki'}><p className={styles.linklist}>Reiki</p></Link></DropdownItem>
 
-                    <DropdownItem><Link to={'/pastlife'}><p>Past Life Readings & Clearings</p></Link></DropdownItem>
+                    <DropdownItem><Link to={'/pastlife'}><p className={styles.linklist}>Past Life Readings & Clearings</p></Link></DropdownItem>
 
-                    <DropdownItem><Link to={'/energyclearing'}><p>Energetic Emotion Body Clearing</p></Link></DropdownItem>
+                    <DropdownItem><Link to={'/energyclearing'}><p className={styles.linklist}>Energetic Emotion Body Clearing</p></Link></DropdownItem>
 
-                    <DropdownItem><Link to={'/soulcoaching'}><p>Soul Coaching</p></Link></DropdownItem>
+                    <DropdownItem><Link to={'/soulcoaching'}><p className={styles.linklist}>Soul Coaching</p></Link></DropdownItem>
                 </div>
             </CSSTransition>
         </div>

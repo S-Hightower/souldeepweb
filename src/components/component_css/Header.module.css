@@ -3,7 +3,7 @@
     src: url(fonts/vimalanew.otf) format('opentype');
 }
 
-.links h1{
+.links h1 {
     font-family: 'Vimala New', monospace;
     color: #222222;
     font-size: 2rem;
@@ -12,7 +12,7 @@
     display: inline-block;
 }
 
-.links p{
+.links p {
     color: #222222;
     display: flex;
     justify-content: space-evenly;
@@ -35,15 +35,16 @@
 }
 
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-font-size: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
 }
 
-a {
-color: #222222;
-text-decoration: none;;
+button {
+    color: #222222;
+    text-decoration: none;
+    ;
 }
 
 /* Top Navigation Bar */
@@ -59,9 +60,9 @@ text-decoration: none;;
 
 /* <ul> */
 .navbar_nav {
-max-width: 100%;
-height: 100%;
-display: flex;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 /* <li> */
@@ -71,67 +72,110 @@ display: flex;
 
 /* Icon Button */
 .icon_button {
-background-color: rgba(111, 255, 229, 0.1);
-padding: .5rem;
-margin: .2rem;
-margin-left: -1rem;
-display: flex;
-align-items: center;
-justify-content: center;
-transition: filter 300ms;
-border-radius: 50%;
+    min-width: 130px;
+    margin-top: .2rem;
+    height: 40px;
+    color: #222222;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(111, 255, 229, 0.2);
 }
 
 .icon_button:hover {
-    filter: brightness(1.5);
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 8px;
 }
 
-.icon_button svg { 
-    width: 20px;
-    height: 20px;
+.icon_button:hover:after {
+    opacity: 1;
+    right: 10px;
 }
 
+.icon_button:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+.icon_p {
+    margin-top: .1rem;
+    color: #222222;
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 0 1rem;
+    position: relative;
+    bottom: .2rem;
+    font-size: 1.15rem;
+}
 /* Dropdown Menu */
 
 .dropdown {
-position: absolute;
-top: 3.5rem;
-width: 17rem;
-transform: translateX(-45%);
-background-color: rgba(111, 255, 229, 0.3);
-border: 1px solid rgba(111, 255, 229, 0.3);
-border-radius: 8px;
-padding: 0.5rem;
-overflow: hidden;
-transition: height 500ms ease;
+    position: absolute;
+    top: 3.5rem;
+    width: 17rem;
+    transform: translateX(-45%);
+    background-color: rgba(111, 255, 229, 0.3);
+    border: 1px solid rgba(111, 255, 229, 0.3);
+    border-radius: 8px;
+    padding: 0.5rem;
+    overflow: hidden;
+    transition: height 500ms ease;
 }
 
 .menu {
-width: 100%;
+    width: 100%;
 }
 
 .menu_item {
-height: 1.5rem;
-display: flex;
-align-items: center;
-border-radius: 8px;
-transition: background 500ms;
-padding: 0.5rem;
+    color: #222222;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    transition: background 500ms;
+    padding: 0.5rem;
+}
+
+.linklist {
+    color: #222222;
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+    position: relative;
+    bottom: .2rem;
+    font-size: 1rem;
 }
 
 /* CSSTransition classes  */
 .menu_primary_enter {
-position: absolute;
-transform: translateX(-110%);
+    position: absolute;
+    transform: translateX(-110%);
 }
+
 .menu_primary_enter_active {
-transform: translateX(0%);
-transition: all 500ms ease;
+    transform: translateX(0%);
+    transition: all 500ms ease;
 }
+
 .menu_primary_exit {
-position: absolute;
+    position: absolute;
 }
+
 .menu_primary_exit_active {
-transform: translateX(-110%);
-transition: all 500ms ease;
+    transform: translateX(-110%);
+    transition: all 500ms ease;
 }
