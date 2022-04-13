@@ -74,6 +74,7 @@ button {
 .icon_button {
     min-width: 130px;
     margin-top: .2rem;
+    margin-left: -1rem;
     height: 40px;
     color: #222222;
     padding: 5px 10px;
@@ -84,8 +85,8 @@ button {
     outline: none;
     overflow: hidden;
     border-radius: 5px;
-    border: none;
-    background-color: rgba(111, 255, 229, 0.2);
+    border: none; 
+    background-color: rgba(111, 255, 229, 0.1);
 }
 
 .icon_button:hover {
