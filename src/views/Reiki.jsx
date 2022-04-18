@@ -25,15 +25,15 @@ const Reiki = (props) => {
             <div className={styles.container}>
 
                 <div className={styles.static_intro}>
+                    <h1>I am a Reiki Master Teacher and Intuitive who assists you in healing yourself.</h1>
                     <img src={ReikiBadge} width="200" height="200" alt="IARP Member badge" className="me-3" />
-                    <h1>I am a Reiki Master Teacher and Intuitive who assists you in healing yourself</h1>
                 </div>
 
                 <h4>Click here if you would like to know more:</h4>
                 <div className={styles.clickers}>
-                    <div className="btn-group btn-group-lg mb-5" role="group">
-                        <button className="btn border border-dark" onClick={e => onClickHandler(e, 1)} value={selection}>Reiki Session and Class Information</button>
-                    </div>
+                    <button className={styles.icon_button} onClick={e => onClickHandler(e, 1)} value={selection}>
+                    <p className={styles.icon_p}>Reiki Session and Class Information</p>
+                    </button>
                 </div>
 
                 <div className={styles.renders}>
@@ -136,7 +136,7 @@ const Reiki = (props) => {
 
                 <div className={styles.static_end}>
                     <img src={WhatReiki} width="600" height="600" className="mb-3 mt-3" alt="original text with description of what reiki is/isn't" />
-                    <div className="card bg-light p-2 text-dark bg-opacity-25">
+                    <div className="card bg-light p-2 text-dark bg-opacity-10">
                         <div className="card-body">
                             <h2>The Benefits of Reiki:</h2>
                             <ul className="list-group list-group-flush">
@@ -160,13 +160,13 @@ const Reiki = (props) => {
                     <br />
 
                     <div className={styles.bottom_text}>
-                        <div className="card bg-light p-2 text-dark bg-opacity-25 mb-5">
+                        <div className="card bg-light p-2 text-dark bg-opacity-10 mb-5">
                             <div className="card-body">
                                 <h4>Each individual is different, and each Reiki session is as unique as the person receiving the treatment.</h4>
                                 <h4>Reiki is not intended to replace your current medical regimen.</h4>
                                 <h4>It is a complementary modality, that enhances and promotes healing. </h4>
                                 <hr />
-                                <h2>Healing Physically, Healing Emotionally & Healing Spiritually</h2>
+                                <h2>Healing Physically, Healing Emotionally, & Healing Spiritually</h2>
                             </div>
                         </div>
                     </div>

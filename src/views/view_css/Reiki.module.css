@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Vimala New', monospace;
+    src: url(fonts/VimalaNew.otf) format('opentype');
+}
+
 .container {
     max-width: auto;
     min-height: calc(100vh - 9em);
@@ -9,7 +14,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 6.25rem 5rem;
+    margin: 4rem 5rem 0rem 5rem;
+}
+
+.static_intro h1 {
+    font-family: 'Vimala New', monospace;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .static_end{
@@ -35,14 +46,64 @@ h5{
 .clickers {
     display: flex;
     justify-content: center;
+    margin-bottom: .5rem;
 }
 
 .static_end h4 {
     font-weight: bold;
 }
 
-.clickers button{
-    background-color: #afdceb;
+/* Icon Button */
+.icon_button {
+    min-width: 130px;
+    margin-top: .2rem;
+    margin-left: -1rem;
+    height: 40px;
+    color: #222222;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none; 
+    background-color: #05abc4;
+}
+
+.icon_button:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.icon_button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.icon_button:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+.icon_p {
+    margin-top: .1rem;
+    color: #222222;
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 0 1rem;
+    position: relative;
+    bottom: .2rem;
+    font-size: 1.25rem;
 }
 
 .session .card h1 {
@@ -55,5 +116,12 @@ h5{
 }
 
 .bottom_text hr {
-    border: 2px solid rgba(0, 225, 255, 1);
+    border: 2px solid #fffbe2;
+}
+
+.bottom_text h2 {
+    font-family: 'Vimala New', monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(5, 171, 196, 1);
 }
