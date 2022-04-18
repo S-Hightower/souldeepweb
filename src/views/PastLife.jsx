@@ -30,7 +30,7 @@ const PastLife = () => {
         <>
         <Header />
         <div className={styles.container}>
-            <div class="pastlife-intro">
+            <div class={styles.pastlife_intro}>
                 <h1>Akashic Readings and Clearings</h1>
                 <h1>(Past & Present Life)</h1>
             </div>
