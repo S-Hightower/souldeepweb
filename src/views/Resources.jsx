@@ -47,7 +47,8 @@ function Resources() {
                                 <h3>My next recommendation is Sabrina Monay, Neuromuscular Massage Therapist</h3>
                             </div>
                             <div className="card-title">
-                                <h5>Sabrina is amazing at what she does. Her deep tissue massages are second to none and she has some of the best prices in town! She also offers, Cupping, Graston, Sports Therapy and works with Down Syndrome kids and is crafty too! Sabrina is not on Social Media, and this is giving her time to learn more and more new crafts - give her a call and let her know I sent you! <span>719-310-2966</span></h5>
+                                <h5>Sabrina is amazing at what she does. Her deep tissue massages are second to none and she has some of the best prices in town! She also offers, Cupping, Graston, Sports Therapy and works with Down Syndrome kids and is crafty too! Sabrina is not on Social Media, and this is giving her time to learn more and more new crafts - give her a call and let her know I sent you! 
+                                <h4>719-310-2966</h4></h5>
                             </div>
                         </div>
                     </div>

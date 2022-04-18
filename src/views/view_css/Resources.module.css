@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Vimala New', monospace;
+    src: url(fonts/VimalaNew.otf) format('opentype');
+}
+
 .container {
     max-width: auto;
     min-height: calc(100vh - 9em);
@@ -7,6 +12,13 @@
     margin: 6.25rem 5rem 0rem 5rem;
 }
 
+.resources_intro h2 {
+    font-family: 'Vimala New', monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+
 .resources_intro h5,
 .resources_body h5 {
     color: black;
@@ -14,11 +26,19 @@
 
 .resources_body a {
     text-decoration: none;
-    color: #00008b;
+    color: #fffbe2;
 }
 
 .resources_body a:hover {
     text-decoration: underline;
     text-decoration-thickness: 20%;
-    text-decoration-color: #C59CD9;
+    text-decoration-color: #05abc4;
+}
+
+.resources_body {
+    margin-bottom: 1rem;
+}
+
+.resources_body h4 {
+    margin: .5rem;
 }
