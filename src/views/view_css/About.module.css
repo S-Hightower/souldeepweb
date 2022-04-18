@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Vimala New', monospace;
+    src: url(fonts/VimalaNew.otf) format('opentype');
+}
+
 .about_container {
     max-width: auto;
     min-height: calc(100vh - 9em);
@@ -16,7 +21,12 @@
 }
 
 .about_intro {
-    margin: 4rem 9rem;
+    margin: 4.5rem 5rem 0rem 5rem;
+}
+.about_intro span{
+    font-family: 'Vimala New', monospace;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .about_body {
