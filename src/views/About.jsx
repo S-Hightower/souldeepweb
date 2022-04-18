@@ -62,12 +62,12 @@ function About() {
             </div>
 
             <div className={styles.wrapper}>
-                <h4>With both of these modalities under my belt, and after years of learning to trust that still inner voice, as well as the amazing pictures that reveal themselves to me, I am now fully out of the closet as a Psychic.</h4>
+                <h4>With both of these modalities under my belt, and after years of learning to trust that still inner voice, as well as the amazing pictures that reveal themselves to me, I am now fully out of the closet as a Psychic. Claircognizance is and has been my strongest</h4>
                 <img src={outlook} width="500" height="500" alt="scenic outlook towards the ocean and horizon" className="me-5 ms-5"/>
-                <h4>Claircognizance is and has been my strongest gift, but coming in close second is Clairvoyance. I use them throughout my practice in Reiki, Akashic Readings, Emotional Body Release, Astrology, and my Card Readings. In many cases it comes through just simply speaking with you. </h4>
+                <h4>gift, but coming in close second is Clairvoyance. I use them throughout my practice in Reiki, Akashic Readings, Emotional Body Release, Astrology, and my Card Readings. In many cases it comes through just simply speaking with you. </h4>
             </div>
             
-            <div className="card bg-light p-2 text-dark bg-opacity-25 mt-5" >
+            <div className={styles.closer} >
                 <h4>Here is a recent video interview for Awoke TV where I go over all the many services offered:  <a href="https://vimeo.com/475300685/c6dc744052">Watch Here</a></h4>
             </div>
 
