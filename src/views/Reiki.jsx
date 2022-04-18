@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 import styles from "./view_css/Reiki.module.css";
 
-import ReikiBadge from "../component_images/ReikiBadge2.png";
+import ReikiBadge from "../component_images/ReikiBadgeCircle.png";
 import WhatReiki from "../component_images/WhatReiki.png";
 
 const Reiki = (props) => {
