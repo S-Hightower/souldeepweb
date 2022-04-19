@@ -93,7 +93,7 @@ function DropdownMenu() {
 
                     <DropdownItem><Link to={'/energyclearing'}><p className={styles.linklist}>Energetic Emotion Body Clearing</p></Link></DropdownItem>
 
-                    <DropdownItem><Link to={'/soulcoaching'}><p className={styles.linklist}>Soul Coaching</p></Link></DropdownItem>
+                    <DropdownItem><Link to={'/soulcoaching'}><p className={styles.linklist}>Spiritual Guidance</p></Link></DropdownItem>
                 </div>
             </CSSTransition>
         </div>

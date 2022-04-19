@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Vimala New', monospace;
+    src: url(fonts/VimalaNew.otf) format('opentype');
+}
+
 .container {
     max-width: auto;
     min-height: calc(100vh - 9em);
@@ -5,12 +10,16 @@
 }
 
 .energy_body {
-    margin: 50px 100px 250px 100px;
+    margin: 50px 100px 0px 100px;
 }
 
 .energy_intro h1 {
     font-weight: bold;
     margin: 6.25rem 5rem 0rem 5rem;
+    font-family: 'Vimala New', monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3rem;
 }
 
 .energy_intro h1,
@@ -19,5 +28,27 @@
 }
 
 .energy_body hr {
-    color: #5D3FD3;
+    color: #05abc4;
+}
+
+.span2 {
+    font-family: 'Vimala New', monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.energy_body span{
+    font-family: 'Vimala New', monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.energy_body h3 {
+    background-color: rgba(5, 171, 196, .3);
+    font-family: 'Vimala New', monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 18%;
+    padding: .5rem;
 }
