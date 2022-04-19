@@ -91,7 +91,7 @@ function DropdownMenu() {
 
                     <DropdownItem><Link to={'/pastlife'}><p className={styles.linklist}>Past Life Readings & Clearings</p></Link></DropdownItem>
 
-                    <DropdownItem><Link to={'/energyclearing'}><p className={styles.linklist}>Energetic Emotion Body Clearing</p></Link></DropdownItem>
+                    <DropdownItem><Link to={'/energyclearing'}><p className={styles.linklist}>Emotional Body Release Technique</p></Link></DropdownItem>
 
                     <DropdownItem><Link to={'/soulcoaching'}><p className={styles.linklist}>Spiritual Guidance</p></Link></DropdownItem>
                 </div>
