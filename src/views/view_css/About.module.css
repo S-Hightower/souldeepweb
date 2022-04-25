@@ -60,3 +60,8 @@
 .closer a{
     color: #fffbe2;
 }
+
+hr,
+.span2 {
+    color: #007575;
+}

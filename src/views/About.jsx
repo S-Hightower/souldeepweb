@@ -27,8 +27,10 @@ function About() {
                 <br />
             I believe in putting love into all that I do.
                 <br />
-            <span>Happy - Healthy - Whole
                 <br />
+            <span>Happy <span className={styles.span2}>-</span>Healthy <span className={styles.span2}>-</span>Whole
+                <br />
+                <hr />
             ​This is my desire for you.</span></h2>
         </div>
 

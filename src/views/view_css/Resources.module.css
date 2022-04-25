@@ -26,13 +26,13 @@
 
 .resources_body a {
     text-decoration: none;
-    color: #fffbe2;
+    color: #001871;
 }
 
 .resources_body a:hover {
     text-decoration: underline;
     text-decoration-thickness: 20%;
-    text-decoration-color: #05abc4;
+    text-decoration-color: #C59CD9;
 }
 
 .resources_body {

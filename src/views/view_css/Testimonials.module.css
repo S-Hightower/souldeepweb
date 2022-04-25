@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Vimala New', monospace;
+    src: url(fonts/VimalaNew.otf) format('opentype');
+}
+
 .container {
     max-width: auto;
     min-height: calc(100vh - 9em);
@@ -13,9 +18,20 @@
 .testimonials_intro h1 {
     color: #001871;
     margin-top: 6.25rem;
+    font-family: 'Vimala New', monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 4rem;
 }
 
-.testimonials_body h3,
+.testimonials_body h3{
+    font-family: 'Vimala New', monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: #030170;
+}
+
 .testimonials_body h4{
     font-family: 'Source Serif Pro', serif;
     font-weight: bold;
@@ -23,7 +39,7 @@
 }
 
 .testimonials_body hr {
-    color: #1338be;
+    color: #007575;
 }
 
 .testimonials_body h5 {

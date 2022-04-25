@@ -30,7 +30,7 @@ function EnergyClearing() {
                         <br />
                         By doing this, you clear what is no longer serving you, and replacing it with what will. </h4>
                 <hr />
-                    <h3>This clearing is always gentle and easy and even though it may bring up old wounds, it is quick and will shift you in beautiful, subtle ways!</h3>
+                    <h3>This clearing is always gentle and easy, and even though it may bring up old wounds, it is quick and will shift you in beautiful, subtle ways!</h3>
                 {/* <h1>Emotional Body Release Technique $93/1 hour session - Package deals available</h1> */}
             </div>
         </div>

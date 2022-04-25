@@ -12,12 +12,18 @@
     display: inline-block;
 }
 
+.links h1:hover {
+    text-decoration: overline;
+    text-decoration-thickness: 20%;
+    text-decoration-color: #C59CD9;
+}
+
 .links p {
     color: #222222;
     display: flex;
     justify-content: space-evenly;
     display: inline-block;
-    padding: 0 1rem;
+    padding: 0rem 1rem;
     position: relative;
     bottom: .2rem;
     font-size: 1.15rem;
@@ -51,7 +57,7 @@ button {
 
 /* <nav> */
 .navbar {
-    height: 3rem;
+    height: 3.25rem;
     background: rgba(0, 117, 117, .7);
     font-family: 'Source Serif Pro', serif;
     min-width: 100vw;

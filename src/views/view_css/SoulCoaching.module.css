@@ -12,15 +12,18 @@
 }
 
 .soulcoaching_body {
-    margin: 6.25rem 5rem;
+    margin: 6.25rem 5rem 1rem 5rem;
 }
 
 .soulcoaching_body h2 {
     font-family: 'Vimala New', monospace;
-    margin-top: 3rem;
     font-weight: bold;
     font-style: italic;
     text-align: center;
     font-size: 2.5rem;
     color: #333333;
+}
+
+hr {
+    color: #007575
 }
