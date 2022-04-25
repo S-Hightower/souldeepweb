@@ -13,7 +13,9 @@ function Main() {
         <Header />
         <div className={styles.container}>
             <h1 className={styles.span_h1}>
-                <span>I'm </span>
+                <span>We </span>
+                <span>are </span>
+                <span>all </span>
                 <span>learning </span>
                 <span>and </span>
                 <span>growing </span>
@@ -28,9 +30,8 @@ function Main() {
                 <span>you </span>
                 <span>discover </span>
                 <span>your </span>
-                <span>gifts </span>
-                <span>as </span>
-                <span>well.</span>
+                <span>inner </span>
+                <span>gifts. </span>
             </h1>
         </div>
         <Footer />
