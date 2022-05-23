@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
+import { CgChevronDoubleDown, CgChevronDoubleUp } from 'react-icons/cg'
 const Service = ({ title, info }) => {
     const [expanded, setExpanded] = useState(false)
 
@@ -10,7 +10,7 @@ const Service = ({ title, info }) => {
                     {title}
                 </h3>
                 <button className='btn' onClick={() => setExpanded(!expanded)}>
-                    {expanded ? <AiOutlineMinus /> : <AiOutlinePlus />}
+                    {expanded ? <CgChevronDoubleUp /> : <CgChevronDoubleDown />}
                 </button>
             </header>
             {expanded && <h5>{info}</h5>}
